@@ -1,0 +1,170 @@
+.header {
+    background-color:teal ;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow:hidden;
+  }
+  
+  
+  .header a {
+    float: left;
+    color:greenyellow;
+    display: block;
+    text-align: right;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 18px;
+    
+    
+  }
+  .header-right li{
+    display: inline;
+    padding-right: 40px;
+    margin-left: 120px;
+}
+
+  .header a.logo {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Hind Siliguri", sans-serif;
+    font-style: oblique;
+    
+  }
+
+  .header a:hover {
+    background-color:lightcyan;
+    color: grey;
+  }
+  
+  
+  .header a.active {
+    background-color: gray;
+    color: burlywood;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+
+ .ima3{
+  height: 50%;
+  width: 90%;
+ }
+ 
+ .fram{
+  height: 100%;
+  width: 100%;
+ }
+ 
+ .sec1{
+   margin-top: 100px;
+   margin-right: 40px;
+   margin-left: 40px;
+   font-family: "Hind Siliguri", sans-serif;
+   
+ }
+ .sec1 h3{
+     text-align:center;
+ } 
+.sec2{
+  
+  font-family: 'Merienda',sans-serif;
+
+}
+ 
+ footer {
+  background-color:teal;
+  padding: 20px;
+  text-align: center;
+  color:white;
+  width:100%;
+}
+footer li{
+    display: inline;
+}
+
+.fa {
+
+  padding: 30px;
+
+  font-size: 30px;
+
+  width: 50px;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  margin: 5px 2px;
+
+}
+
+​
+
+.fa:hover {
+
+    opacity: 0.7;
+
+}
+
+​
+
+.fa-facebook {
+
+  background: #3B5998;
+
+  color: blue;
+
+}
+
+​
+
+.fa-twitter {
+
+  background: #55ACEE;
+
+  color: white;
+
+}
+
+
+​
+
+.fa-youtube {
+
+  background: #bb0000;
+  color: white;
+  padding-left:20px;
+
+}
+
+​
+
+.fa-instagram {
+
+  background: #125688;
+
+  color: white;
+
+}
+.fy{
+    background-color:aquamarine;
+}
+
+
+​
+
+
+​
+
